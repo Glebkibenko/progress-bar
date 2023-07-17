@@ -1,0 +1,29 @@
+.box{
+    height: 80px;
+    width: 450px;
+    border: 5px solid;
+    border-color: chocolate;
+    margin: auto;
+
+}
+.box2{
+    background-color:chocolate;
+    width: 70px;
+    height: 80px;
+    animation: myAnim 5s linear alternate infinite;
+    }    
+    @keyframes myAnim{
+        0%{margin-left: 0px;}
+        100%{margin-left: 380px; }
+    }
+    .favorites{
+        margin: auto;
+    }
+    .favorites:hover{
+        filter: grayscale(100%);
+    }
+    .conteiner{   
+        display: flex; 
+        
+
+    }
